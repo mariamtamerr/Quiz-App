@@ -17,7 +17,7 @@ const emitSelectedOption = (isCorrect) => {
     @click="emitSelectedOption(option.isCorrect)"
       v-for="option in question.options"
       :key="option.id"
-      class="choice flex items-center mb-6 hover:scale-105 ease-in-out duration-300 cursor-pointer "
+      class="choice flex items-center mb-6 sm:hover:scale-105 ease-in-out duration-300 cursor-pointer "
     >
       <div class="left w-fit px-3 text-black bg-orange-300 p-2">
         {{ option.label }}
