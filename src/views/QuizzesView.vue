@@ -15,6 +15,8 @@ const filteredQuizzes = () => {
 
 <template>
   <div class="all p-10 px-20 ">
+
+    <!-- start : search input -->
     <div class="search sm:flex justify-center sm:gap-5">
       <div class="title">
         <h4 class="font-bold text-2xl mb-5 sm:mb-auto text-center">Quizzes</h4>
@@ -50,16 +52,18 @@ const filteredQuizzes = () => {
       </div>
     </div>
     <!-- <Search :search="search" /> -->
+  <!-- end : search input -->
 
 
+   <!-- start : quizzes -->
     <div
    v-if="filteredQuizzes().length"
-    class="cards xl:ps-44 flex flex-wrap mt-20 gap-20 ">
+    class="cards xl:ps-44  flex flex-wrap mt-20 gap-20 ">
 
       <div
         v-for="quiz in filteredQuizzes()"
         :key="quiz.id"
-        class="w-64  flex flex-col bg-white border shadow-sm rounded-xl"
+        class="w-64 mx-auto  flex flex-col bg-white border shadow-sm rounded-xl"
       >
         <!-- <img
           class="w-full h-full rounded-t-xl"
@@ -74,13 +78,15 @@ const filteredQuizzes = () => {
             {{ quiz.numberOfQuestions }} Questions
           </p>
         </div> -->
-        <RouterLink :to="`/quiz/${quiz.id}`" class="hover:scale-105 ease-in-out duration-300  hover:shadow-md hover:shadow-slate-800">
+        <RouterLink :to="`/quiz/${quiz.id}`" class="hover:scale-105 ease-in-out duration-300  hover:shadow-md hover:shadow-slate-800 ">
             <Card :quiz="quiz"/>
         </RouterLink>
         
       </div>
     </div>
+    <!-- end : quizzes -->
 
+    <!-- in case of no search results -->
     <div v-else class="text-center col-span-full grid gap-5 mt-20">
         <p class="text-xl font-bold text-red-500">No results found</p>
     </div>

@@ -5,7 +5,7 @@ const { question } = defineProps(["question"]);
 </script>
 
 <template>
-  <div>
+  <div class="mt-20 mb-6 ">
     <h5 class="Header mt-10 mb-5 text-xl">
      {{question.question}}
     </h5>
