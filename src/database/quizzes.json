@@ -1,0 +1,708 @@
+{
+  "quizzes": [
+    {
+      "id": "1",
+      "title": "Mathematics",
+      "numberOfQuestions": "5",
+      "image": "/images/math.jpg",
+      "questions": [
+        {
+          "id": "1",
+          "question": "What is the text of Pi (π) rounded to two decimal places?",
+          "options": [
+            { "id": "A", "label": "A", "text": "3.12", "isCorrect": false },
+            { "id": "B", "label": "B", "text": "3.14", "isCorrect": true },
+            { "id": "C", "label": "C", "text": "3.16", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "2",
+          "question": "What is the square root of 64?",
+          "options": [
+            { "id": "A", "label": "A", "text": "6", "isCorrect": false },
+            { "id": "B", "label": "B", "text": "8", "isCorrect": true },
+            { "id": "C", "label": "C", "text": "10", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "3",
+          "question": "What is the formula for the area of a circle?",
+          "options": [
+            { "id": "A", "label": "A", "text": "2πr", "isCorrect": false },
+            { "id": "B", "label": "B", "text": "πr^2", "isCorrect": true },
+            { "id": "C", "label": "C", "text": "πd", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "4",
+          "question": "What is 15% of 200?",
+          "options": [
+            { "id": "1", "label": "A", "text": "30", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "20", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "25", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "5",
+          "question": "What is the text of the golden ratio (ϕ) approximately?",
+          "options": [
+            { "id": "1", "label": "A", "text": "1.62", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "1.68", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "1.50", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Physics",
+      "numberOfQuestions": "5",
+      "image": "/images/physics.jpeg",
+      "questions": [
+        {
+          "id": "1",
+          "question": "What is the speed of light?",
+          "options": [
+            { "id": "1", "label": "A", "text": "3 x 10^8 m/s", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "3000 km/s", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "3 x 10^5 m/s", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "2",
+          "question": "Which of the following is Newton's first law of motion?",
+          "options": [
+            { "id": "1", "label": "A", "text": "F = ma", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "An object at rest stays at rest", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "For every action, there is an equal and opposite reaction", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "3",
+          "question": "What is the unit of force?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Newton", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "Pascal", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "Joule", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "4",
+          "question": "What is the formula for kinetic energy?",
+          "options": [
+            { "id": "1", "label": "A", "text": "KE = mv", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "KE = 1/2 mv^2", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "KE = mgh", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "5",
+          "question": "What does 'g' stand for in physics?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Gravity", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "Acceleration", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "Gravitational constant", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "English",
+      "numberOfQuestions": "8",
+      "image": "/images/english.jpeg",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Which word is a synonym for 'happy'?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Sad", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "Joyful", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "Angry", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "2",
+          "question": "What is the past tense of 'go'?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Gone", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "Went", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "Go", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "3",
+          "question": "Which sentence is correct?",
+          "options": [
+            { "id": "1", "label": "A", "text": "She go to the market.", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "She goes to the market.", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "She going to the market.", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "4",
+          "question": "What is an antonym of 'fast'?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Quick", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "Slow", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "Rapid", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "5",
+          "question": "Choose the correct form of the verb: 'He ___ swimming every Sunday.'",
+          "options": [
+            { "id": "1", "label": "A", "text": "go", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "goes", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "going", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "6",
+          "question": "Which of the following is a noun?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Run", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "House", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "Quickly", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "7",
+          "question": "Which word is a verb?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Running", "isCorrect": true },
+            { "id": "2", "label": "B", "text": "Fast", "isCorrect": false },
+            { "id": "3", "label": "C", "text": "Blue", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "8",
+          "question": "What is the correct spelling?",
+          "options": [
+            { "id": "1", "label": "A", "text": "Recieve", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "Receive", "isCorrect": true },
+            { "id": "3", "label": "C", "text": "Recieve", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Biology",
+      "numberOfQuestions": "5",
+      "image": "/images/biology.jpeg",
+      "questions": [
+        {
+          "id": "1",
+          "question": "What is the powerhouse of the cell?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Nucleus", "isCorrect": false },
+            { "id": "2", "label": "B", "text": "Mitochondria", "isCorrect": true },
+            { "id": "3","label": "C",  "text": "Ribosome", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "2",
+          "question": "Which process do plants use to make their food?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Respiration", "isCorrect": false },
+            { "id": "2","label": "B",  "text": "Photosynthesis", "isCorrect": true },
+            { "id": "3","label": "C",  "text": "Transpiration", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "3",
+          "question": "What is the basic unit of life?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Cell", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "Atom", "isCorrect": false },
+            { "id": "3","label": "C",  "text": "Molecule", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "4",
+          "question": "What is the function of red blood cells?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Transport oxygen", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "Fight infection", "isCorrect": false },
+            { "id": "3","label": "C",  "text": "Clot blood", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "5",
+          "question": "Which organ is responsible for pumping blood in the human body?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Liver", "isCorrect": false },
+            { "id": "2","label": "B",  "text": "Heart", "isCorrect": true },
+            { "id": "3","label": "C",  "text": "Lungs", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Chemistry",
+      "numberOfQuestions": "5",
+      "image": "/images/chemistry.jpeg",
+      "questions": [
+        {
+          "id": "1",
+          "question": "What is the chemical symbol for water?",
+          "options": [
+            { "id": "1","label": "A",  "text": "H2O", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "O2", "isCorrect": false },
+            { "id": "3","label": "C", "text": "CO2", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "2",
+          "question": "What is the pH of pure water?",
+          "options": [
+            { "id": "1","label": "A",  "text": "7", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "5", "isCorrect": false },
+            { "id": "3","label": "C",  "text": "9", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "3",
+          "question": "What gas do plants absorb from the atmosphere?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Oxygen", "isCorrect": false },
+            { "id": "2","label": "B",  "text": "Carbon Dioxide", "isCorrect": true },
+            { "id": "3","label": "C",  "text": "Nitrogen", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "4",
+          "question": "Which element is known as the basis of organic chemistry?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Carbon", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "Hydrogen", "isCorrect": false },
+            { "id": "3","label": "C",  "text": "Oxygen", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "5",
+          "question": "What is the hardest natural substance on Earth?",
+          "options": [
+            { "id": "1","label": "A",  "text": "Diamond", "isCorrect": true },
+            { "id": "2","label": "B",  "text": "Gold", "isCorrect": false },
+            { "id": "3","label": "C",  "text": "Iron", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "id": "6",
+      "title": "English Literature",
+      "numberOfQuestions": "5",
+      "image": "/images/literature.jpeg",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "William Shakespeare", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Charles Dickens", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Jane Austen", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Mark Twain", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Which novel begins with 'Call me Ishmael'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Moby-Dick", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "The Great Gatsby", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "To Kill a Mockingbird", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "1984", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Charlotte Brontë", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Jane Austen", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Emily Brontë", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Mary Shelley", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "What is the title of George Orwell's novel about a dystopian society?",
+        "options": [
+          { "id": 1, "label": "A", "text": "1984", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Brave New World", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "The Handmaid's Tale", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Fahrenheit 451", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Who wrote the poem 'The Raven'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Walt Whitman", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Robert Frost", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Edgar Allan Poe", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Emily Dickinson", "isCorrect": false }
+        ]
+      }
+    ]
+
+    }
+    ,
+          {
+            "id": "7",
+            "title": "Geography",
+            "numberOfQuestions": "5",
+            "image": "/images/geography.jpeg",
+"questions": [
+  {
+    "id": "1",
+    "question": "Which is the longest river in the world?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Amazon", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Nile", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "Yangtze", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Mississippi", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Which is the largest desert in the world?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Sahara", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Gobi", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Arctic", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Kalahari", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What is the capital of Australia?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Sydney", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Melbourne", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Canberra", "isCorrect": true },
+      { "id": 4, "label": "D", "text": "Brisbane", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Which country has the most natural lakes?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Canada", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Brazil", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Russia", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "United States", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Which continent has the most countries?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Africa", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Asia", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Europe", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Oceania", "isCorrect": false }
+    ]
+  }
+]
+
+
+          },
+          {
+            "id": "8",
+            "title": "History",
+            "numberOfQuestions": "5",
+            "image": "/images/history.jpeg",
+"questions": [
+  {
+    "id": "1",
+    "question": "Who was the first president of the United States?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Abraham Lincoln", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "George Washington", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "Thomas Jefferson", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "John Adams", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Which year did World War II end?",
+    "options": [
+      { "id": 1, "label": "A", "text": "1940", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "1945", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "1950", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "1939", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What ancient civilization built the pyramids?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Romans", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Aztecs", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Egyptians", "isCorrect": true },
+      { "id": 4, "label": "D", "text": "Greeks", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Who discovered America in 1492?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Christopher Columbus", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Marco Polo", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Ferdinand Magellan", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Vasco da Gama", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "What was the name of the ship that transported the Pilgrims to America in 1620?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Mayflower", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Santa Maria", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Endeavour", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Pinta", "isCorrect": false }
+    ]
+  }
+]
+
+
+          },
+          {
+            "id": "9",
+            "title": "Computer Science",
+            "numberOfQuestions": "5",
+            "image": "/images/computer_science.jpeg",
+            "questions": [
+             {
+    "id": "1",
+    "question": "What does CPU stand for?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Central Process Unit", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Central Processing Unit", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "Control Processing Unit", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Central Processor Unit", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "What is the primary function of an operating system?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Manage hardware", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Process data", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Store information", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Run applications", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Which language is considered the foundation of modern programming?",
+    "options": [
+      { "id": 1, "label": "A", "text": "JavaScript", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Python", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "C", "isCorrect": true },
+      { "id": 4, "label": "D", "text": "Java", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "What is a network of computers called?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Database", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Cloud", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Internet", "isCorrect": true },
+      { "id": 4, "label": "D", "text": "Intranet", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Which is not a type of computer hardware?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Monitor", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Software", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "Keyboard", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Mouse", "isCorrect": false }
+    ]
+  }
+]
+
+
+          },
+          {
+            "id": "10",
+            "title": "Art",
+            "numberOfQuestions": "5",
+            "image": "/images/art.jpeg",
+            "questions": [
+  {
+    "id": "1",
+    "question": "Which artist painted the Mona Lisa?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Leonardo da Vinci", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Vincent van Gogh", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Pablo Picasso", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Claude Monet", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "What is the technique of painting on wet plaster called?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Fresco", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Oil Painting", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Watercolor", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Acrylic", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What are the primary colors?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Red, Yellow, Blue", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Green, Orange, Purple", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Black, White, Gray", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Cyan, Magenta, Yellow", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Which art movement is Salvador Dalí associated with?",
+    "options": [
+      { "id": 1, "label": "A", "text": "Surrealism", "isCorrect": true },
+      { "id": 2, "label": "B", "text": "Cubism", "isCorrect": false },
+      { "id": 3, "label": "C", "text": "Impressionism", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Fauvism", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "In which country did the Renaissance begin?",
+    "options": [
+      { "id": 1, "label": "A", "text": "France", "isCorrect": false },
+      { "id": 2, "label": "B", "text": "Italy", "isCorrect": true },
+      { "id": 3, "label": "C", "text": "Germany", "isCorrect": false },
+      { "id": 4, "label": "D", "text": "Spain", "isCorrect": false }
+    ]
+  }
+]
+
+
+          },
+          {
+            "id": "11",
+            "title": "Music",
+            "numberOfQuestions": "5",
+            "image": "/images/music.jpeg",
+            "questions": [
+              {
+                "id": "1",
+                "question": "Which composer is known for the symphony 'Ode to Joy'?",
+                "options": [
+                  { "id": 1, "label": "A", "text": "Mozart", "isCorrect": false },
+                  { "id": 2, "label": "B", "text": "Beethoven", "isCorrect": true },
+                  { "id": 3, "label": "C", "text": "Bach", "isCorrect": false }
+                ]
+              },
+              {
+                "id": "2",
+                "question": "Which instrument has 88 keys?",
+                "options": [
+                  { "id": 1, "label": "A", "text": "Violin", "isCorrect": false },
+                  { "id": 2, "label": "B", "text": "Piano", "isCorrect": true },
+                  { "id": 3, "label": "C", "text": "Guitar", "isCorrect": false }
+                ]
+              },
+              {
+                "id": "3",
+                "question": "Who is known as the 'King of Pop'?",
+                "options": [
+                  { "id": 1, "label": "A", "text": "Elvis Presley", "isCorrect": false },
+                  { "id": 2, "label": "B", "text": "Michael Jackson", "isCorrect": true },
+                  { "id": 3, "label": "C", "text": "Prince", "isCorrect": false }
+                ]
+              },
+              {
+                "id": "4",
+                "question": "What is the highest male voice type?",
+                "options": [
+                  { "id": 1, "label": "A", "text": "Baritone", "isCorrect": false },
+                  { "id": 2, "label": "B", "text": "Tenor", "isCorrect": true },
+                  { "id": 3, "label": "C", "text": "Bass", "isCorrect": false }
+                ]
+              },
+              {
+                "id": "5",
+                "question": "Which musical genre originated in the 1920s in New Orleans?",
+                "options": [
+                  { "id": 1, "label": "A", "text": "Jazz", "isCorrect": true },
+                  { "id": 2, "label": "B", "text": "Blues", "isCorrect": false },
+                  { "id": 3, "label": "C", "text": "Rock", "isCorrect": false }
+                ]
+              }
+            ]
+
+          },
+          {
+            "id": "12",
+            "title": "Philosophy",
+            "numberOfQuestions": "5",
+            "image": "/images/philosophy.jpeg",
+            "questions": [
+                {
+                  "id": "1",
+                  "question": "Who is considered the father of Western philosophy?",
+                  "options": [
+                    { "id": 1, "label": "A", "text": "Plato", "isCorrect": true },
+                    { "id": 2, "label": "B", "text": "Aristotle", "isCorrect": false },
+                    { "id": 3, "label": "C", "text": "Socrates", "isCorrect": false }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "question": "What is the name of Plato's famous book?",
+                  "options": [
+                    { "id": 1, "label": "A", "text": "The Republic", "isCorrect": true },
+                    { "id": 2, "label": "B", "text": "Nicomachean Ethics", "isCorrect": false },
+                    { "id": 3, "label": "C", "text": "Meditations", "isCorrect": false }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "question": "Which philosopher is known for the concept of the 'will to power'?",
+                  "options": [
+                    { "id": 1, "label": "A", "text": "Nietzsche", "isCorrect": true },
+                    { "id": 2, "label": "B", "text": "Kant", "isCorrect": false },
+                    { "id": 3, "label": "C", "text": "Descartes", "isCorrect": false }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "question": "What is the philosophical study of knowledge called?",
+                  "options": [
+                    { "id": 1, "label": "A", "text": "Ethics", "isCorrect": false },
+                    { "id": 2, "label": "B", "text": "Metaphysics", "isCorrect": false },
+                    { "id": 3, "label": "C", "text": "Epistemology", "isCorrect": true }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "question": "Which philosopher is famous for the phrase 'I think, therefore I am'?",
+                  "options": [
+                    { "id": 1, "label": "A", "text": "Kant", "isCorrect": false },
+                    { "id": 2, "label": "B", "text": "Descartes", "isCorrect": true },
+                    { "id": 3, "label": "C", "text": "Hume", "isCorrect": false }
+                  ]
+                }
+              ]
+          }
+          
+          
+         
+    ]
+}
