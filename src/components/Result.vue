@@ -15,7 +15,7 @@ const goHome = () => {
 </script>
 
 <template>
-  <div class="mx-auto mt-20 text-center">
+  <div class="mx-auto mt-20 text-center -ml-10 sm:ml-0">
     <h1 class="text-3xl mb-5">Your Results ....</h1>
 
     <h1 class="text-4xl font-bold">
@@ -23,7 +23,7 @@ const goHome = () => {
     </h1>
   </div>
 
-  <div class="button mx-auto text-center">
+  <div class="button mx-auto text-center -ml-10 sm:ml-0">
     <button
     @click="goHome"
         class="text-white mt-44  bg-gray-700 hover:bg-gray-400 ease-in-out duration-300 p-4 py-2"
