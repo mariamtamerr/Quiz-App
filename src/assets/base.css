@@ -56,10 +56,11 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 body {
-  overflow-x: hidden;
+  
   position: relative;
   min-height: 100vh;
   color: var(--color-text);
